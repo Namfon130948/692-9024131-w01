@@ -1,0 +1,78 @@
+{
+  "student_graduation_check": {
+    "summary_metrics": {
+      "credits": {
+        "min_required": 124,
+        "enrolled": 99,
+        "passed": 99,
+        "pending": 19,
+        "status": "FAIL"
+      },
+      "study_period": {
+        "max_years_allowed": 16,
+        "years_studied": 4,
+        "current_year_level": 3,
+        "status": "PASS"
+      },
+      "gpa": {
+        "min_required": 2.00,
+        "gpax": 3.04,
+        "major_gpa": 0.00,
+        "status": "PASS"
+      },
+      "skills_test": {
+        "computer_skill": "FAIL",
+        "language_skill": "FAIL",
+        "status": "FAIL"
+      }
+    },
+    "curriculum_structure": [
+      {
+        "category_name": "1 หมวดวิชาศึกษาทั่วไป",
+        "required_credits": 30,
+        "ca": null,
+        "cs": null,
+        "cw": null,
+        "cg": null,
+        "pt": null,
+        "gpa": null,
+        "status": null,
+        "sub_categories": [
+          {
+            "group_name": "1.1 กลุ่มวิชาภาษาและการสื่อสาร",
+            "required_credits": 9,
+            "items": [
+              {
+                "item_name": "1.1.1 กลุ่มวิชาภาษาอังกฤษ",
+                "required_credits": 6,
+                "ca": 6,
+                "cs": 6,
+                "cw": null,
+                "cg": 6,
+                "pt": 18,
+                "gpa": 3.00,
+                "status": "PASS"
+              },
+              {
+                "item_name": "1.1.2 กลุ่มวิชาภาษาไทยและภาษาอื่น",
+                "required_credits": 3,
+                "ca": 3,
+                "cs": 3,
+                "cw": null,
+                "cg": 3,
+                "pt": 12,
+                "gpa": 4.00,
+                "status": "PASS"
+              }
+            ]
+          },
+          {
+            "group_name": "1.2 กลุ่มวิชามนุษยศาสตร์และสังคมศาสตร์",
+            "required_credits": 12,
+            "items": []
+          }
+        ]
+      }
+    ]
+  }
+}
